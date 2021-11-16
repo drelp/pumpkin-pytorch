@@ -20,3 +20,13 @@ if __name__ == "__main__":
         download=True,
         transform=ToTensor(),
     )
+
+    batch_size = 64
+
+    train_dataloader = DataLoader(training_data, batch_size=batch_size)
+    test_dataloader = DataLoader(test_data, batch_size=batch_size)
+
+    for X, y in test_dataloader:
+        print("Shape of X [N, C, H, W]: ", X.shape)
+        print("Shape of y: ", y.shape, y.dtype)
+        break
