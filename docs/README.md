@@ -1,5 +1,5 @@
 ```shell script
-python test.py
+python train-test.py
 ```
 
 ```
