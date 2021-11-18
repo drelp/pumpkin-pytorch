@@ -60,7 +60,7 @@ def test(dataloader, model, loss_fn):
 
 if __name__ == "__main__":
     training_data = datasets.FashionMNIST(
-        root="data",
+        root="/dataset/data",
         train=True,
         download=True,
         transform=ToTensor(),
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     # Download test data from open datasets.
     test_data = datasets.FashionMNIST(
-        root="data",
+        root="/dataset/data",
         train=False,
         download=True,
         transform=ToTensor(),
