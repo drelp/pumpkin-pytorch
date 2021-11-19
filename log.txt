@@ -85,7 +85,7 @@ Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packa
 Building wheels for collected packages: easydict
   Building wheel for easydict (setup.py) ... done
   Created wheel for easydict: filename=easydict-1.9-py3-none-any.whl size=6360 sha256=384f9cf29f7b396516ae8ff1a7643d9a13162ad1fdeef9b0c69d1a0862002fe6
-  Stored in directory: /Users/peterzhang/Library/Caches/pip/wheels/e8/86/70/ac24104634bdb6198089f4f2763849e1adbbf2b6f3bd860657
+  Stored in directory: ~/Library/Caches/pip/wheels/e8/86/70/ac24104634bdb6198089f4f2763849e1adbbf2b6f3bd860657
 Successfully built easydict
 Installing collected packages: pyparsing, tomli, packaging, typing-extensions, setuptools-scm, pytz, python-dateutil, Pillow, numpy, kiwisolver, fonttools, cycler, urllib3, torch, scipy, pandas, matplotlib, idna, charset-normalizer, certifi, tqdm, torchvision, seaborn, requests, PyYAML, opencv-python, easydict
   DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
