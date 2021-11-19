@@ -21,5 +21,6 @@ https://pjreddie.com/darknet/yolo/
 
 yolov5l.pt
 
+https://dl.teamviewer.com/download/version_15x/TeamViewer.dmg
 https://dl.teamviewer.cn/download/version_15x/TeamViewer.dmg
 ```
