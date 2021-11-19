@@ -12,4 +12,6 @@ python3.9 track.py --source 0
 
 ```
 https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html
+
+https://pjreddie.com/darknet/yolo/
 ```
