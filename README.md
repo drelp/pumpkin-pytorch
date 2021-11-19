@@ -43,4 +43,6 @@ assets = ['yolov5n.pt', 'yolov5s.pt', 'yolov5m.pt', 'yolov5l.pt', 'yolov5x.pt',
 Real-time multi-object tracker using YOLO v5 and deep sort
 
 real time object track
+
+virtualenv
 ```
