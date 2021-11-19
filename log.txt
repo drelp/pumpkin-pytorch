@@ -166,3 +166,6 @@ Model Summary: 367 layers, 46533693 parameters, 0 gradients
 0: 384x640 3 persons, 1 microwave, Done. (1.591s)
 0: 384x640 3 persons, 1 chair, 1 microwave, Done. (2.173s)
 0: 384x640 3 persons, 1 microwave, Done. (1.804s)
+
+Speed: 1.1ms pre-process, 1364.9ms inference, 1.6ms NMS per image at shape (1, 3, 640, 640)
+Results saved to ~/dev/github/pumpkin-pytorch/Yolov5_DeepSort_Pytorch/inference/output
