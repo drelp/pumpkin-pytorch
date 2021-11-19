@@ -134,3 +134,35 @@ YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
 YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
 
 Downloading https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5l.pt to yolov5l.pt...
+
+python3.9 track.py --source 0
+Loading weights from deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7... Done!
+YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
+
+YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
+
+Fusing layers...
+Model Summary: 367 layers, 46533693 parameters, 0 gradients
+1/1: 0...  Success (inf frames 1280x720 at 12.00 FPS)
+
+0: 384x640 3 persons, 1 microwave, Done. (1.889s)
+0: 384x640 3 persons, 1 microwave, Done. (1.858s)
+0: 384x640 3 persons, 1 microwave, Done. (1.628s)
+0: 384x640 3 persons, 1 microwave, Done. (2.224s)
+0: 384x640 3 persons, 1 microwave, Done. (1.774s)
+0: 384x640 3 persons, 1 microwave, Done. (1.663s)
+0: 384x640 3 persons, 1 microwave, Done. (1.381s)
+0: 384x640 3 persons, Done. (1.671s)
+0: 384x640 3 persons, 1 chair, 1 microwave, Done. (1.659s)
+0: 384x640 3 persons, Done. (1.740s)
+0: 384x640 3 persons, 1 microwave, Done. (2.158s)
+0: 384x640 3 persons, 1 microwave, Done. (1.752s)
+0: 384x640 3 persons, 1 microwave, Done. (2.093s)
+0: 384x640 3 persons, 1 microwave, Done. (1.635s)
+0: 384x640 3 persons, 1 microwave, Done. (2.570s)
+0: 384x640 3 persons, 1 microwave, Done. (3.934s)
+0: 384x640 3 persons, 1 chair, 1 microwave, Done. (2.321s)
+0: 384x640 3 persons, 1 chair, 1 microwave, Done. (1.645s)
+0: 384x640 3 persons, 1 microwave, Done. (1.591s)
+0: 384x640 3 persons, 1 chair, 1 microwave, Done. (2.173s)
+0: 384x640 3 persons, 1 microwave, Done. (1.804s)
