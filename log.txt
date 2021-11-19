@@ -1,0 +1,121 @@
+pip3.9 install -r requirements.txt
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+
+
+pip3.9 install -r requirements.txt -i https://pypi.doubanio.com/simple/
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Looking in indexes: https://pypi.doubanio.com/simple/
+Collecting matplotlib>=3.2.2
+  Downloading https://pypi.doubanio.com/packages/36/e5/7d4681a8d92c14ea83816346eed868deb063b5e76ece879b703c5b572eba/matplotlib-3.5.0-cp39-cp39-macosx_10_9_x86_64.whl (7.3 MB)
+     |████████████████████████████████| 7.3 MB 1.3 MB/s
+Collecting numpy>=1.18.5
+  Downloading https://pypi.doubanio.com/packages/19/5a/7901e94e8873d7d5800cd3ab08e19629e5ec98b0c423727cec59ac687e13/numpy-1.21.4-cp39-cp39-macosx_10_9_x86_64.whl (17.0 MB)
+     |████████████████████████████████| 17.0 MB 738 kB/s
+Collecting opencv-python>=4.1.2
+  Downloading https://pypi.doubanio.com/packages/67/62/09e1db83d9eb280549fa8abc62d060941fb9680dc12cc977ac94ef552970/opencv_python-4.5.4.58-cp39-cp39-macosx_10_15_x86_64.whl (45.5 MB)
+     |████████████████████████████████| 45.5 MB 72 kB/s
+Collecting Pillow>=7.1.2
+  Downloading https://pypi.doubanio.com/packages/32/25/32889d2b7c577b5a454dd12194b2ecb9d87d4b49c15c278dc99bc8ff5d2e/Pillow-8.4.0-cp39-cp39-macosx_10_10_x86_64.whl (3.0 MB)
+     |████████████████████████████████| 3.0 MB 452 kB/s
+Collecting PyYAML>=5.3.1
+  Downloading https://pypi.doubanio.com/packages/f5/6f/b8b4515346af7c33d3b07cd8ca8ea0700ca72e8d7a750b2b87ac0268ca4e/PyYAML-6.0-cp39-cp39-macosx_10_9_x86_64.whl (197 kB)
+     |████████████████████████████████| 197 kB 527 kB/s
+Collecting requests>=2.23.0
+  Downloading https://pypi.doubanio.com/packages/92/96/144f70b972a9c0eabbd4391ef93ccd49d0f2747f4f6a2a2738e99e5adc65/requests-2.26.0-py2.py3-none-any.whl (62 kB)
+     |████████████████████████████████| 62 kB 396 kB/s
+Collecting scipy>=1.4.1
+  Downloading https://pypi.doubanio.com/packages/c1/15/1da22a7ad4ea3bc9a398da38060a92af1985add277991423e4403128e2d1/scipy-1.7.2-cp39-cp39-macosx_10_9_x86_64.whl (33.2 MB)
+     |████████████████████████████████| 33.2 MB 161 kB/s
+Collecting torch>=1.7.0
+  Downloading https://pypi.doubanio.com/packages/ab/75/b0e2cb5be9d2ddb85eb09efc9a8808674fe7a2357dd0673362473f1939b0/torch-1.10.0-cp39-none-macosx_10_9_x86_64.whl (147.1 MB)
+     |████████████████████████████████| 147.1 MB 14 kB/s
+Collecting torchvision>=0.8.1
+  Downloading https://pypi.doubanio.com/packages/a9/e7/41f08c8e659fe39e35cb705c4fe2515ce582b81765a1f312c8f721e52f6c/torchvision-0.11.1-cp39-cp39-macosx_10_9_x86_64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 997 kB/s
+Collecting tqdm>=4.41.0
+  Downloading https://pypi.doubanio.com/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+     |████████████████████████████████| 76 kB 398 kB/s
+Collecting pandas>=1.1.4
+  Downloading https://pypi.doubanio.com/packages/3b/52/d5475578dc252c13e0823b9a715c2e17002dcdaee9defba0d2b2659112df/pandas-1.3.4-cp39-cp39-macosx_10_9_x86_64.whl (11.6 MB)
+     |████████████████████████████████| 11.6 MB 1.7 MB/s
+Collecting seaborn>=0.11.0
+  Downloading https://pypi.doubanio.com/packages/10/5b/0479d7d845b5ba410ca702ffcd7f2cd95a14a4dfff1fde2637802b258b9b/seaborn-0.11.2-py3-none-any.whl (292 kB)
+     |████████████████████████████████| 292 kB 7.6 MB/s
+Collecting easydict
+  Downloading https://pypi.doubanio.com/packages/4c/c5/5757886c4f538c1b3f95f6745499a24bffa389a805dee92d093e2d9ba7db/easydict-1.9.tar.gz (6.4 kB)
+Collecting pyparsing>=2.2.1
+  Downloading https://pypi.doubanio.com/packages/a0/34/895006117f6fce0b4de045c87e154ee4a20c68ec0a4c9a36d900888fb6bc/pyparsing-3.0.6-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 411 kB/s
+Collecting python-dateutil>=2.7
+  Downloading https://pypi.doubanio.com/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     |████████████████████████████████| 247 kB 9.6 MB/s
+Collecting packaging>=20.0
+  Downloading https://pypi.doubanio.com/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 194 kB/s
+Collecting cycler>=0.10
+  Downloading https://pypi.doubanio.com/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading https://pypi.doubanio.com/packages/42/98/897d6a04ca4a3927dcd6f1237c5d5c49e068962fd4f2c015463a50ba07ed/fonttools-4.28.1-py3-none-any.whl (873 kB)
+     |████████████████████████████████| 873 kB 2.4 MB/s
+Collecting kiwisolver>=1.0.1
+  Downloading https://pypi.doubanio.com/packages/17/99/40638eab98b3e3970ad2aec0715e13bf38497b4ee5dd74d14ba622bbe342/kiwisolver-1.3.2-cp39-cp39-macosx_10_9_x86_64.whl (61 kB)
+     |████████████████████████████████| 61 kB 253 kB/s
+Collecting setuptools-scm>=4
+  Downloading https://pypi.doubanio.com/packages/bc/bf/353180314d0e27929703faf240c244f25ae765e01f595a010cafb209ab51/setuptools_scm-6.3.2-py3-none-any.whl (33 kB)
+Collecting idna<4,>=2.5
+  Downloading https://pypi.doubanio.com/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 2.6 MB/s
+Collecting charset-normalizer~=2.0.0
+  Downloading https://pypi.doubanio.com/packages/de/c8/820b1546c68efcbbe3c1b10dd925fbd84a0dda7438bc18db0ef1fa567733/charset_normalizer-2.0.7-py3-none-any.whl (38 kB)
+Collecting certifi>=2017.4.17
+  Downloading https://pypi.doubanio.com/packages/37/45/946c02767aabb873146011e665728b680884cd8fe70dde973c640e45b775/certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     |████████████████████████████████| 149 kB 4.0 MB/s
+Collecting urllib3<1.27,>=1.21.1
+  Downloading https://pypi.doubanio.com/packages/af/f4/524415c0744552cce7d8bf3669af78e8a069514405ea4fcbd0cc44733744/urllib3-1.26.7-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 915 kB/s
+Collecting typing-extensions
+  Downloading https://pypi.doubanio.com/packages/17/61/32c3ab8951142e061587d957226b5683d1387fb22d95b4f69186d92616d1/typing_extensions-4.0.0-py3-none-any.whl (22 kB)
+Collecting pytz>=2017.3
+  Downloading https://pypi.doubanio.com/packages/d3/e3/d9f046b5d1c94a3aeab15f1f867aa414f8ee9d196fae6865f1d6a0ee1a0b/pytz-2021.3-py2.py3-none-any.whl (503 kB)
+     |████████████████████████████████| 503 kB 360 kB/s
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib>=3.2.2->-r requirements.txt (line 5)) (1.16.0)
+Collecting tomli>=1.0.0
+  Downloading https://pypi.doubanio.com/packages/6d/6c/9908d4db66488217c665a9a5744319406e41f3c46fa5929a8886f2fe1090/tomli-1.2.2-py3-none-any.whl (12 kB)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (from setuptools-scm>=4->matplotlib>=3.2.2->-r requirements.txt (line 5)) (57.4.0)
+Building wheels for collected packages: easydict
+  Building wheel for easydict (setup.py) ... done
+  Created wheel for easydict: filename=easydict-1.9-py3-none-any.whl size=6360 sha256=384f9cf29f7b396516ae8ff1a7643d9a13162ad1fdeef9b0c69d1a0862002fe6
+  Stored in directory: /Users/peterzhang/Library/Caches/pip/wheels/e8/86/70/ac24104634bdb6198089f4f2763849e1adbbf2b6f3bd860657
+Successfully built easydict
+Installing collected packages: pyparsing, tomli, packaging, typing-extensions, setuptools-scm, pytz, python-dateutil, Pillow, numpy, kiwisolver, fonttools, cycler, urllib3, torch, scipy, pandas, matplotlib, idna, charset-normalizer, certifi, tqdm, torchvision, seaborn, requests, PyYAML, opencv-python, easydict
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed Pillow-8.4.0 PyYAML-6.0 certifi-2021.10.8 charset-normalizer-2.0.7 cycler-0.11.0 easydict-1.9 fonttools-4.28.1 idna-3.3 kiwisolver-1.3.2 matplotlib-3.5.0 numpy-1.21.4 opencv-python-4.5.4.58 packaging-21.3 pandas-1.3.4 pyparsing-3.0.6 python-dateutil-2.8.2 pytz-2021.3 requests-2.26.0 scipy-1.7.2 seaborn-0.11.2 setuptools-scm-6.3.2 tomli-1.2.2 torch-1.10.0 torchvision-0.11.1 tqdm-4.62.3 typing-extensions-4.0.0 urllib3-1.26.7
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
