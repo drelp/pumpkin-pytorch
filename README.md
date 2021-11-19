@@ -20,4 +20,6 @@ https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html
 https://pjreddie.com/darknet/yolo/
 
 yolov5l.pt
+
+https://dl.teamviewer.cn/download/version_15x/TeamViewer.dmg
 ```
