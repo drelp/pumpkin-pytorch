@@ -46,3 +46,42 @@ real time object track
 
 virtualenv
 ```
+
+```
+python3.9 track.py -h                         
+usage: track.py [-h] [--yolo_weights YOLO_WEIGHTS [YOLO_WEIGHTS ...]] [--deep_sort_weights DEEP_SORT_WEIGHTS]
+                [--source SOURCE] [--output OUTPUT] [--imgsz IMGSZ [IMGSZ ...]] [--conf-thres CONF_THRES]
+                [--iou-thres IOU_THRES] [--fourcc FOURCC] [--device DEVICE] [--show-vid] [--save-vid]
+                [--save-txt] [--classes CLASSES [CLASSES ...]] [--agnostic-nms] [--augment] [--evaluate]
+                [--config_deepsort CONFIG_DEEPSORT] [--half] [--visualize] [--max-det MAX_DET] [--dnn]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --yolo_weights YOLO_WEIGHTS [YOLO_WEIGHTS ...]
+                        model.pt path(s)
+  --deep_sort_weights DEEP_SORT_WEIGHTS
+                        ckpt.t7 path
+  --source SOURCE       source
+  --output OUTPUT       output folder
+  --imgsz IMGSZ [IMGSZ ...], --img IMGSZ [IMGSZ ...], --img-size IMGSZ [IMGSZ ...]
+                        inference size h,w
+  --conf-thres CONF_THRES
+                        object confidence threshold
+  --iou-thres IOU_THRES
+                        IOU threshold for NMS
+  --fourcc FOURCC       output video codec (verify ffmpeg support)
+  --device DEVICE       cuda device, i.e. 0 or 0,1,2,3 or cpu
+  --show-vid            display tracking video results
+  --save-vid            save video tracking results
+  --save-txt            save MOT compliant results to *.txt
+  --classes CLASSES [CLASSES ...]
+                        filter by class: --class 0, or --class 16 17
+  --agnostic-nms        class-agnostic NMS
+  --augment             augmented inference
+  --evaluate            augmented inference
+  --config_deepsort CONFIG_DEEPSORT
+  --half                use FP16 half-precision inference
+  --visualize           visualize features
+  --max-det MAX_DET     maximum detection per image
+  --dnn                 use OpenCV DNN for ONNX inference
+```
