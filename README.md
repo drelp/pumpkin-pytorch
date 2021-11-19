@@ -11,6 +11,9 @@ python3.9 track.py --source 0
 python3.9 track.py --source 0 --show-vid
 python3.9 track.py --source 0 --save-vid
 
+python3.9 track.py --source 'k3008u2szwb.mp4' --show-vid
+python3.9 track.py --source 'k3008u2szwb.mp4' --save-vid
+
 du -ah
 du -h -d 1
 ./deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
@@ -48,6 +51,9 @@ real time object track
 virtualenv
 
 rtmp 测试地址
+rtmp test address
+
+rtmp server
 ```
 
 ```
