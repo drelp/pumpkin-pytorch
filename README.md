@@ -9,6 +9,7 @@ git submodule update --init
 pip3.9 install -r requirements.txt -i https://pypi.doubanio.com/simple/
 python3.9 track.py --source 0
 python3.9 track.py --source 0 --show-vid
+python3.9 track.py --source 0 --save-vid
 
 du -ah
 du -h -d 1
@@ -45,6 +46,14 @@ Real-time multi-object tracker using YOLO v5 and deep sort
 real time object track
 
 virtualenv
+
+rtmp 测试地址
+
+RTMP流地址
+湖南卫视： rtmp://58.200.131.2:1935/livetv/hunantv (720*576)
+
+RTSP流地址
+大熊兔（VOD）：rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov （分辨率240*160），注意，这个URL用RTSP TCP模式测试
 ```
 
 ```
