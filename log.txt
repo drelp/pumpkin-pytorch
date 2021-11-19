@@ -126,3 +126,11 @@ Fontconfig warning: "/usr/local/etc/fonts/fonts.conf", line 86: unknown element 
 Unable to revert mtime: /Library/Fonts
 Fontconfig warning: ignoring UTF-8: not a valid region tag
 Downloading https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch/releases/download/v3.0/ckpt.t7 to deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7...
+100%|█████████████████████████████████████████████████████████████████████████| 43.9M/43.9M [19:34<00:00, 39.2kB/s]
+
+Loading weights from deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7... Done!
+YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
+
+YOLOv5 🚀 v6.0-94-g47fac9f torch 1.10.0 CPU
+
+Downloading https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5l.pt to yolov5l.pt...
