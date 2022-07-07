@@ -4,6 +4,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor, Lambda, Compose
 import matplotlib.pyplot as plt
+import mlflow.pytorch
 
 # Define model
 class NeuralNetwork(nn.Module):
@@ -100,6 +101,8 @@ if __name__ == "__main__":
         train(train_dataloader, model, loss_fn, optimizer)
         test(test_dataloader, model, loss_fn)
     print("Done!")
+
+    mlflow.pytorch.save_model(model, "model")
 
     torch.save(model.state_dict(), "model.pth")
     print("Saved PyTorch Model State to model.pth")
