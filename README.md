@@ -54,6 +54,10 @@ rtmp 测试地址
 rtmp test address
 
 rtmp server
+
+cd /model
+python /code/src/fashion_mnist/train.py
+mv model pytorchModel
 ```
 
 ```
