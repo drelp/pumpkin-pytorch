@@ -102,7 +102,7 @@ if __name__ == "__main__":
         test(test_dataloader, model, loss_fn)
     print("Done!")
 
-    mlflow.pytorch.save_model(model, "model")
+    mlflow.pytorch.save_model(model, "/model/pytorchModel")
 
     torch.save(model.state_dict(), "/model/model.pth")
     print("Saved PyTorch Model State to model.pth")
